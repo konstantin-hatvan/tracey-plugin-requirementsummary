@@ -1,0 +1,25 @@
+{
+    "name": "tracey-plugin-requirementsummary",
+    "version": "0.0.1",
+    "description": "Plugin to generate a requirements overview",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/konstantin-hatvan/tracey-plugin-requirementsummary.git"
+    },
+    "keywords": [
+        "tracey",
+        "plugin"
+    ],
+    "author": "Konstantin Hatvan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/konstantin-hatvan/tracey-plugin-requirementsummary/issues"
+    },
+    "homepage": "https://github.com/konstantin-hatvan/tracey-plugin-requirementsummary#readme",
+    "dependencies": {
+        "remark": "^12.0.1",
+        "unist-util-visit": "2.0.3",
+        "mdast-builder": "1.1.1"
+    }
+}
