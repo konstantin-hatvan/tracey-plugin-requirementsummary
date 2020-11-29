@@ -63,7 +63,7 @@ const updateRequirementsummary = (original, block) => {
     return ast;
 };
 
-const plugin = ({ file = path.resolve('tracey-plugin-requirementsummary.md') }) => ({ requirements, tracelinks, annotations }) => {
+const plugin = ({ file = path.resolve('tracey-plugin-requirementsummary.md') }) => ({ requirements, annotations }) => {
     if (requirements.length) {
         const block = createBlock(file, requirements);
         const ast = getFileContentOrEmptyDocument(file);
@@ -75,7 +75,6 @@ const plugin = ({ file = path.resolve('tracey-plugin-requirementsummary.md') }) 
 
     return {
         requirements,
-        tracelinks,
         annotations,
     };
 };
