@@ -1,6 +1,6 @@
 {
     "name": "tracey-plugin-requirementsummary",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Plugin to generate a requirements overview",
     "main": "index.js",
     "repository": {
