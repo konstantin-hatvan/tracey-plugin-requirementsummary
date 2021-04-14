@@ -23,7 +23,7 @@ const RequirementsummaryPlugin = require('tracey-plugin-requirementsummary');
 
 module.exports = {
     plugins: [
-        RequirementsummaryPlugin({ /* configuration options */ }),
+        RequirementsummaryPlugin.plugin({ /* configuration options */ }),
     ],
 };
 ```
